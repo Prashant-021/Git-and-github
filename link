@@ -1,0 +1,10 @@
+install github desktop
+
+	https://gist.github.com/berkorbay/6feda478a00b0432d13f1fc0a50467f1
+	
+git commands
+	1. git inti- initalize an empty git repo.
+	2. ls -a - show the hidden folders in directory.
+	3. git status - get the status of any changes made in the repository.
+	4. git add . - update all changes.
+	5. git add filename - update a specific file.
