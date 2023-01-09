@@ -8,3 +8,4 @@ git commands
 	3. git status - get the status of any changes made in the repository.
 	4. git add . - update all changes.
 	5. git add filename - update a specific file.
+	6. git log - get the logs of the changes made.
