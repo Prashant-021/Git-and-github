@@ -1,12 +1,68 @@
 install github desktop
 
 	https://gist.github.com/berkorbay/6feda478a00b0432d13f1fc0a50467f1
-	
+
+yt link
+  	https://www.youtube.com/watch?v=apGV9Kg7ics
 git commands
-	1. git inti- initalize an empty git repo.
+	1. git init- initalize an empty git repo.
 	2. ls -a - show the hidden folders in directory.
 	3. git status - get the status of any changes made in the repository.
 	4. git add . - update all changes.
 	5. git add filename - update a specific file.
 	6. git log - get the logs of the changes made.
 	7. git reset hash value - remove all the above logs.
+	 
+	23:15
+	
+	8.  git stash - store data modified for a temporary time without commiting
+	9.  git stash pop -  get all data to commiting area.
+	10. git stash clear - delete stash
+	11. git branch branchname - create new branch
+	12. git checkout branchname - change branch
+	13. git merge branchname -m "message" - merege the branch 
+	14. git rm --cached filename - remove file from staged area
+	
+git is a distributed version control system
+advantages
+	1. free and open source
+	2. fast and small
+	3. implicit backup
+	4. Security
+	5. No need of powerful hardware
+	6. Easy branching
+	
+	
+github
+
+	1. git remote - list all the remote repositories 
+ 	2. git remote add origin githublink - add the remote repo
+ 	3. git push -u origin master - push to remote repo
+	4. git push -  push to remote repo
+ 	5. git clone githublink - clone another repo
+ 	
+ 	
+change commit message
+
+	change first commit message
+		git commit --amend -m "your message"
+	
+	change nth commit message
+		git rebase -i HEAD~nth commit 
+		change pick to edit
+		git commit --amend
+		change commit message
+		
+delete commit 
+	git rebase -i HEAD~nth commit 
+	change pick to drop
+
+
+cherry pick 
+	
+	with commit
+		git cherry-pick "commit address"
+	without commit 
+		git cherry-pick "commit address" -n
+		git commit -m "message"
+
